@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Al-Amin Rashid Tarek - Portfolio</title>
+    <style>
+        :root {
+            --primary: #1a4b84;
+            --secondary: #2c3e50;
+            --background: #f8f9fa;
+            --text: #333333;
+        }
+        body {
+            font-family: 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+            line-height: 1.6;
+            color: var(--text);
+            background-color: var(--background);
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            max-width: 1000px;
+            margin: 0 auto;
+            padding: 40px 20px;
+            background: white;
+            box-shadow: 0 0 20px rgba(0,0,0,0.05);
+        }
+        header {
+            text-align: center;
+            padding-bottom: 30px;
+            border-bottom: 3px solid var(--primary);
+            margin-bottom: 40px;
+        }
+        h1 {
+            color: var(--primary);
+            font-size: 2.5em;
+            margin-bottom: 10px;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+        }
+        .contact-info {
+            font-size: 1.1em;
+            color: var(--secondary);
+            margin-bottom: 15px;
+        }
+        .contact-info a {
+            color: var(--primary);
+            text-decoration: none;
+            font-weight: bold;
+            margin: 0 10px;
+        }
+        .contact-info a:hover {
+            text-decoration: underline;
+        }
+        h2 {
+            color: var(--primary);
+            border-bottom: 2px solid #eee;
+            padding-bottom: 10px;
+            margin-top: 40px;
+            font-size: 1.8em;
+        }
+        .item-block {
+            margin-bottom: 25px;
+        }
+        .item-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: baseline;
+            margin-bottom: 10px;
+        }
+        .title {
+            font-weight: bold;
+            font-size: 1.2em;
+            color: var(--secondary);
+        }
+        .subtitle {
+            font-style: italic;
+            color: #666;
+        }
+        .date {
+            font-weight: bold;
+            color: var(--primary);
+        }
+        ul {
+            margin-top: 10px;
+            padding-left: 20px;
+        }
+        li {
+            margin-bottom: 8px;
+        }
+        .skills-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 20px;
+        }
+        .skills-category {
+            background: #f1f5f9;
+            padding: 20px;
+            border-radius: 8px;
+        }
+        .skills-category h3 {
+            margin-top: 0;
+            color: var(--primary);
+        }
+        .download-btn {
+            display: inline-block;
+            background: var(--primary);
+            color: white;
+            padding: 10px 20px;
+            text-decoration: none;
+            border-radius: 5px;
+            margin-top: 15px;
+            font-weight: bold;
+        }
+        .download-btn:hover {
+            background: #123456;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Al-Amin Rashid Tarek</h1>
+            <div class="contact-info">
+                Mechanical Engineer | Certified SOLIDWORKS Associate (CSWA) <br>
+                Mirpur, Dhaka - 1216, Bangladesh <br>
+                <a href="mailto:alaminrashid597@gmail.com">alaminrashid597@gmail.com</a> |
+                <span>+880-173-6027231</span> |
+                <a href="https://linkedin.com/in/al-amin-rashid-tarek/" target="_blank">LinkedIn Profile</a>
+            </div>
+            <!-- Update the href below when you upload your CV PDF to the repository -->
+            <a href="#" class="download-btn">Download Full CV</a>
+        </header>
+
+        <section>
+            <h2>Professional Summary</h2>
+            <p>Mechanical Engineer specializing in Automation and Robotics, Control Systems, Composite Materials, and Additive Manufacturing. Highly experienced in mechanical design, CAD modeling, and the end-to-end fabrication of complex systems including UAVs, rovers, and robotic manipulators.</p>
+        </section>
+
+        <section>
+            <h2>Experience</h2>
+            
+            <div class="item-block">
+                <div class="item-header">
+                    <div>
+                        <span class="title">Product Designer</span><br>
+                        <span class="subtitle">Innovatex Engineering | Mirpur DOSH</span>
+                    </div>
+                    <div class="date">Jan 2026 - Apr 2026</div>
+                </div>
+                <ul>
+                    <li>Designed three outdoor-rated LED display cabinet platforms using SolidWorks and FEA-driven structural analysis to optimize sheet metal thickness and rib reinforcement layouts.</li>
+                    <li>Developed precision alignment and mounting features for LED module integration, reducing visible panel seam lines across large display arrays.</li>
+                    <li>Led cabinets fabrication and assembly using laser cutting, sheet metal forming, welding, and powder-coating processes.</li>
+                </ul>
+            </div>
+
+            <div class="item-block">
+                <div class="item-header">
+                    <div>
+                        <span class="title">Research Assistant</span><br>
+                        <span class="subtitle">Department of Mechanical Engineering | MIST</span>
+                    </div>
+                    <div class="date">Aug 2025 - Present</div>
+                </div>
+                <ul>
+                    <li>Designed a 10-inch FPV UAV frame using SolidWorks to be CNC machined from carbon fiber composite sheets, integrating 3D-printed components.</li>
+                    <li>Led the mechanical design and manufacturing of a man-portable Surveillance UAV platform with a rugged transport case.</li>
+                    <li>Reverse engineered and redesigned multiple subassemblies of a 60 mm mortar-shell dropping UAV using SolidWorks.</li>
+                    <li>Designed and manufactured a lightweight four 60 mm mortar-shell release mechanism utilizing carbon fiber composites and aerospace-grade aluminum.</li>
+                </ul>
+            </div>
+
+            <div class="item-block">
+                <div class="item-header">
+                    <div>
+                        <span class="title">Vice Team Lead</span><br>
+                        <span class="subtitle">MIST Mongol Barota | MIST</span>
+                    </div>
+                    <div class="date">Jul 2024 - May 2025</div>
+                </div>
+                <ul>
+                    <li>Led the mechanical design, manufacturing, and integration of Mars rover subsystems for international robotics competitions, utilizing SolidWorks for CAD modeling.</li>
+                    <li>Designed and optimized rover mechanisms including suspension systems, robotic manipulators, Soil Collection unit, and drivetrain assemblies using DFM/DFA principles.</li>
+                    <li>Secured 2nd Place at the Anatolian Rover Challenge (ARC) 2024 & 14th place University Rover Challenge (URC) 2025.</li>
+                </ul>
+            </div>
+        </section>
+
+        <section>
+            <h2>Notable Projects</h2>
+            <div class="item-block">
+                <ul>
+                    <li><strong>KamiKaze FPV Drone:</strong> A tactical quadcopter drone system capable of carrying multiple types of munition to target and neutralize with precision and accuracy with visual control system. We are currently in active development for making it battle ready.</li>
+                    <li><strong>CHOUKOSH PROHORI (Completed):</strong> An AI-driven autonomous sentry turret for real-time target detection, tracking, and engagement under predefined rules of engagement.</li>
+                    <li><strong>Physiotherapy Device (Completed):</strong> A robotic rehabilitation system designed to assist musculoskeletal physiotherapy of the human elbow joint.</li>
+                    <li><strong>AURORA X Rover:</strong> A precision rover system developed to perform remote manipulation, autonomous navigation, and scientific soil analysis using visual odometry and onboard instrumentation.</li>
+                    <li><strong>Pneumatic Catapult Launcher (Ongoing):</strong> A light-weight, battery-operated and rapidly deployable pneumatic catapult system for UAVs up to 30Kg MTOW at maximum 25m/s exit velocity.</li>
+                    <li><strong>Pick & Place Robotic Arm (Ongoing):</strong> Designing a 6-DoF robotic manipulator utilizing custom cycloidal drives and VLA models to identify autonomously, grasp, and manipulate objects of varying shapes.</li>
+                </ul>
+            </div>
+        </section>
+
+        <section>
+            <h2>Education</h2>
+            <div class="item-block">
+                <div class="item-header">
+                    <div>
+                        <span class="title">B.Sc. in Mechanical Engineering</span><br>
+                        <span class="subtitle">Military Institute of Science and Technology</span>
+                    </div>
+                    <div class="date">Apr 2021 - May 2025</div>
+                </div>
+                <ul>
+                    <li>CGPA: 3.29/4.00</li>
+                    <li>Thesis Title: Design and Development of a Universal Robot-Assisted Rehabilitation System for Musculoskeletal Physiotherapy</li>
+                </ul>
+            </div>
+        </section>
+
+        <section>
+            <h2>Technical Skills</h2>
+            <div class="skills-grid">
+                <div class="skills-category">
+                    <h3>Software & Engineering</h3>
+                    <ul>
+                        <li>SolidWorks, Fusion360, AutoCAD</li>
+                        <li>C, MATLAB, Python Programming</li>
+                        <li>Geometric Dimensioning & Tolerances, DFM/DFA</li>
+                        <li>Statistical tolerance analysis</li>
+                    </ul>
+                </div>
+                <div class="skills-category">
+                    <h3>Manufacturing & Hardware</h3>
+                    <ul>
+                        <li>3D Printing, Laser Cutting, CNC Machining</li>
+                        <li>Sheet Metal Design & Fabrication</li>
+                        <li>Carbon fiber, aluminum, and stainless steel fabrication</li>
+                        <li>Power Distribution Management, Soldering, Wiring</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <section>
+            <h2>Publications & Awards</h2>
+            <div class="item-block">
+                <ul>
+                    <li><strong>Journal Publication:</strong> Saqafi, A. A., et al. "Investigation of the Mechanical Properties of Repurposed-Net-Bag Reinforced Plastic." MIST International Journal of Science and Technology (2025).</li>
+                    <li><strong>Award:</strong> Top 3 at Bangladesh BEAR Summit 2025 (Biotech Category) for thesis project.</li>
+                    <li><strong>Award:</strong> 2nd Runner-up in Project Showcasing in MIST Project Competition 2025.</li>
+                </ul>
+            </div>
+        </section>
+    </div>
+</body>
+</html>
